@@ -1,0 +1,285 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://ground.tscn" type="PackedScene" id=1]
+[ext_resource path="res://monster.tscn" type="PackedScene" id=2]
+[ext_resource path="res://luja.tscn" type="PackedScene" id=3]
+[ext_resource path="res://rain.tscn" type="PackedScene" id=4]
+[ext_resource path="res://shifter.tscn" type="PackedScene" id=6]
+[ext_resource path="res://house.tscn" type="PackedScene" id=7]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="StaticBody2D" parent="." instance=ExtResource( 1 )]
+position = Vector2( 500, 0 )
+
+[node name="StaticBody2D2" parent="StaticBody2D" instance=ExtResource( 1 )]
+position = Vector2( -500, 0 )
+
+[node name="StaticBody2D3" parent="StaticBody2D" instance=ExtResource( 1 )]
+position = Vector2( 500, 0 )
+
+[node name="StaticBody2D4" parent="StaticBody2D" instance=ExtResource( 1 )]
+position = Vector2( 1000, 0 )
+
+[node name="StaticBody2D5" parent="StaticBody2D" instance=ExtResource( 1 )]
+position = Vector2( 1500, 0 )
+
+[node name="StaticBody2D7" parent="StaticBody2D" instance=ExtResource( 1 )]
+position = Vector2( 8000, 0 )
+
+[node name="StaticBody2D8" parent="StaticBody2D" instance=ExtResource( 1 )]
+position = Vector2( 8500, 0 )
+
+[node name="StaticBody2D9" parent="StaticBody2D" instance=ExtResource( 1 )]
+position = Vector2( 9000, 0 )
+
+[node name="StaticBody2D2" parent="." instance=ExtResource( 1 )]
+position = Vector2( 13000, 0 )
+
+[node name="StaticBody2D2" parent="StaticBody2D2" instance=ExtResource( 1 )]
+position = Vector2( -500, 0 )
+
+[node name="StaticBody2D3" parent="StaticBody2D2" instance=ExtResource( 1 )]
+position = Vector2( 500, 0 )
+
+[node name="StaticBody2D4" parent="StaticBody2D2" instance=ExtResource( 1 )]
+position = Vector2( 1000, 0 )
+
+[node name="StaticBody2D5" parent="StaticBody2D2" instance=ExtResource( 1 )]
+position = Vector2( 1500, 0 )
+
+[node name="StaticBody2D7" parent="StaticBody2D2" instance=ExtResource( 1 )]
+position = Vector2( 2000, 0 )
+
+[node name="StaticBody2D8" parent="StaticBody2D2" instance=ExtResource( 1 )]
+position = Vector2( 2500, 0 )
+
+[node name="StaticBody2D9" parent="StaticBody2D2" instance=ExtResource( 1 )]
+position = Vector2( 3000, 0 )
+
+[node name="Node2D" parent="." instance=ExtResource( 3 )]
+visible = false
+position = Vector2( 1500, 0 )
+
+[node name="StaticBody2D10" parent="." instance=ExtResource( 4 )]
+position = Vector2( 1500, 0 )
+
+[node name="StaticBody2D11" parent="." instance=ExtResource( 4 )]
+position = Vector2( 2000, 0 )
+
+[node name="StaticBody2D15" parent="." instance=ExtResource( 4 )]
+position = Vector2( 3000, 0 )
+
+[node name="StaticBody2D16" parent="." instance=ExtResource( 4 )]
+position = Vector2( 3500, 0 )
+
+[node name="StaticBody2D17" parent="." instance=ExtResource( 4 )]
+position = Vector2( 4000, 0 )
+
+[node name="StaticBody2D18" parent="." instance=ExtResource( 4 )]
+position = Vector2( 5000, 0 )
+
+[node name="StaticBody2D19" parent="." instance=ExtResource( 4 )]
+position = Vector2( 5500, 0 )
+
+[node name="StaticBody2D21" parent="." instance=ExtResource( 4 )]
+position = Vector2( 6000, 0 )
+
+[node name="StaticBody2D22" parent="." instance=ExtResource( 4 )]
+position = Vector2( 7000, 0 )
+
+[node name="StaticBody2D23" parent="." instance=ExtResource( 4 )]
+position = Vector2( 7500, 0 )
+
+[node name="StaticBody2D24" parent="." instance=ExtResource( 4 )]
+position = Vector2( 8000, 0 )
+
+[node name="StaticBody2D12" parent="." instance=ExtResource( 4 )]
+position = Vector2( 8500, 0 )
+
+[node name="StaticBody2D" parent="StaticBody2D12" instance=ExtResource( 1 )]
+position = Vector2( -9000, 0 )
+
+[node name="StaticBody2D2" parent="StaticBody2D12" instance=ExtResource( 1 )]
+position = Vector2( -9500, 0 )
+
+[node name="StaticBody2D3" parent="StaticBody2D12" instance=ExtResource( 1 )]
+position = Vector2( -10000, 0 )
+
+[node name="StaticBody2D4" parent="StaticBody2D12" instance=ExtResource( 1 )]
+position = Vector2( -10500, 0 )
+
+[node name="StaticBody2D9" parent="StaticBody2D12" instance=ExtResource( 1 )]
+position = Vector2( -4500, 0 )
+
+[node name="StaticBody2D10" parent="StaticBody2D12" instance=ExtResource( 1 )]
+position = Vector2( -5000, 0 )
+
+[node name="StaticBody2D11" parent="StaticBody2D12" instance=ExtResource( 1 )]
+position = Vector2( -5500, 0 )
+
+[node name="StaticBody2D12" parent="StaticBody2D12" instance=ExtResource( 1 )]
+position = Vector2( -6000, 0 )
+
+[node name="StaticBody2D13" parent="StaticBody2D12" instance=ExtResource( 1 )]
+position = Vector2( -2500, 0 )
+
+[node name="StaticBody2D14" parent="StaticBody2D12" instance=ExtResource( 1 )]
+position = Vector2( -3000, 0 )
+
+[node name="StaticBody2D15" parent="StaticBody2D12" instance=ExtResource( 1 )]
+position = Vector2( -3500, 0 )
+
+[node name="StaticBody2D16" parent="StaticBody2D12" instance=ExtResource( 1 )]
+position = Vector2( -4000, 0 )
+
+[node name="StaticBody2D17" parent="StaticBody2D12" instance=ExtResource( 1 )]
+position = Vector2( -500, 0 )
+
+[node name="StaticBody2D18" parent="StaticBody2D12" instance=ExtResource( 1 )]
+position = Vector2( -1000, 0 )
+
+[node name="StaticBody2D19" parent="StaticBody2D12" instance=ExtResource( 1 )]
+position = Vector2( -1500, 0 )
+
+[node name="StaticBody2D20" parent="StaticBody2D12" instance=ExtResource( 1 )]
+position = Vector2( -2000, 0 )
+
+[node name="StaticBody2D5" parent="StaticBody2D12" instance=ExtResource( 1 )]
+position = Vector2( 1500, 0 )
+
+[node name="StaticBody2D6" parent="StaticBody2D12" instance=ExtResource( 1 )]
+position = Vector2( 2000, 0 )
+
+[node name="StaticBody2D7" parent="StaticBody2D12" instance=ExtResource( 1 )]
+position = Vector2( 2500, 0 )
+
+[node name="StaticBody2D8" parent="StaticBody2D12" instance=ExtResource( 1 )]
+position = Vector2( 3000, 0 )
+
+[node name="StaticBody2D13" parent="." instance=ExtResource( 4 )]
+position = Vector2( 9500, 0 )
+
+[node name="Node2D2" parent="." instance=ExtResource( 3 )]
+visible = false
+position = Vector2( 2000, 0 )
+
+[node name="Node2D3" parent="." instance=ExtResource( 3 )]
+visible = false
+position = Vector2( 2500, 0 )
+
+[node name="Node2D4" parent="." instance=ExtResource( 3 )]
+visible = false
+position = Vector2( 3500, 0 )
+
+[node name="StaticBody2D6" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1000, 0 )
+
+[node name="Camera2D" type="Camera2D" parent="StaticBody2D6"]
+position = Vector2( 500, 0 )
+current = true
+zoom = Vector2( 5.079, 5.079 )
+
+[node name="CanvasLayer" type="CanvasLayer" parent="StaticBody2D6"]
+
+[node name="Label" type="Label" parent="StaticBody2D6/CanvasLayer"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -27.5
+margin_top = -7.0
+margin_right = 27.5
+margin_bottom = 7.0
+rect_scale = Vector2( 3, 3 )
+
+[node name="Button" type="Button" parent="StaticBody2D6/CanvasLayer"]
+visible = false
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -12.0
+margin_top = 200.0
+margin_right = 52.0
+margin_bottom = 220.0
+rect_scale = Vector2( 3, 3 )
+text = "Retry"
+
+[node name="StaticBody2D14" parent="." instance=ExtResource( 6 )]
+position = Vector2( 2000, 0 )
+player_path = NodePath("../StaticBody2D6")
+
+[node name="StaticBody2D20" parent="." instance=ExtResource( 4 )]
+position = Vector2( 1000, 0 )
+
+[node name="StaticBody2D19" parent="StaticBody2D20" instance=ExtResource( 4 )]
+position = Vector2( -2500, 0 )
+
+[node name="StaticBody2D18" parent="StaticBody2D20" instance=ExtResource( 4 )]
+position = Vector2( -2000, 0 )
+
+[node name="StaticBody2D20" parent="StaticBody2D20" instance=ExtResource( 4 )]
+position = Vector2( 10500, 0 )
+
+[node name="StaticBody2D21" parent="StaticBody2D20" instance=ExtResource( 4 )]
+position = Vector2( 11500, 0 )
+
+[node name="StaticBody2D22" parent="StaticBody2D20" instance=ExtResource( 4 )]
+position = Vector2( 9500, 0 )
+
+[node name="StaticBody2D23" parent="StaticBody2D20" instance=ExtResource( 4 )]
+position = Vector2( 9000, 0 )
+
+[node name="StaticBody2D24" parent="StaticBody2D20" instance=ExtResource( 4 )]
+position = Vector2( 10000, 0 )
+
+[node name="StaticBody2D29" parent="StaticBody2D20" instance=ExtResource( 4 )]
+position = Vector2( 12000, 0 )
+
+[node name="StaticBody2D30" parent="StaticBody2D20" instance=ExtResource( 4 )]
+position = Vector2( 12500, 0 )
+
+[node name="StaticBody2D31" parent="StaticBody2D20" instance=ExtResource( 4 )]
+position = Vector2( 13500, 0 )
+
+[node name="StaticBody2D32" parent="StaticBody2D20" instance=ExtResource( 4 )]
+position = Vector2( 14000, 0 )
+
+[node name="Node2D" parent="StaticBody2D20/StaticBody2D32" instance=ExtResource( 3 )]
+position = Vector2( -11000, 0 )
+
+[node name="Node2D2" parent="StaticBody2D20/StaticBody2D32" instance=ExtResource( 3 )]
+position = Vector2( -7500, 0 )
+
+[node name="Node2D3" parent="StaticBody2D20/StaticBody2D32" instance=ExtResource( 3 )]
+position = Vector2( -5000, 0 )
+
+[node name="Node2D4" parent="StaticBody2D20/StaticBody2D32" instance=ExtResource( 3 )]
+position = Vector2( -4500, 0 )
+
+[node name="Node2D5" parent="StaticBody2D20/StaticBody2D32" instance=ExtResource( 3 )]
+position = Vector2( -500, 0 )
+
+[node name="StaticBody2D17" parent="StaticBody2D20" instance=ExtResource( 4 )]
+position = Vector2( -1500, 0 )
+
+[node name="StaticBody2D16" parent="StaticBody2D20" instance=ExtResource( 4 )]
+position = Vector2( -500, 0 )
+
+[node name="StaticBody2D15" parent="StaticBody2D20" instance=ExtResource( 4 )]
+position = Vector2( -1000, 0 )
+
+[node name="CanvasLayer2" type="CanvasLayer" parent="."]
+
+[node name="Label" type="Label" parent="CanvasLayer2"]
+margin_right = 211.0
+margin_bottom = 31.0
+rect_scale = Vector2( 2, 2 )
+text = "U will die if not in water
+Use SHIFT to use ur 4d other self"
+
+[node name="StaticBody2D3" parent="." instance=ExtResource( 7 )]
+position = Vector2( 15500, 0 )
+
+[connection signal="pressed" from="StaticBody2D6/CanvasLayer/Button" to="StaticBody2D6" method="_on_Button_pressed"]
